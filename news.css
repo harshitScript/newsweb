@@ -1,0 +1,288 @@
+/*Try changing background color and border to news which class is applied to which*/
+/* Without setting height of html,body we cannot set margin and padding of body to zero  */
+html,body{
+
+    height: 100%;
+
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+
+}
+
+h3,h4{
+
+    font-weight: bold;
+
+}
+
+hr{
+   
+    border-bottom: 3px solid grey;
+
+}
+
+p::first-letter{
+    
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+::selection{
+
+    color: white;
+    background-color:grey;
+
+}
+
+/* BOOTSTARP CLASSES */
+.navbar{
+    
+    box-shadow: 0 0 5px grey;
+
+}
+
+.navbar-header{
+    
+    font-family: 'Pattaya', Courier, monospace;
+    font-weight: bold;
+
+}
+.navbar-right a{
+    
+    font-weight: bold;
+
+}
+
+
+/* CUSTOM MADE CLASSES */
+
+.division{ 
+    
+    height: 620px;
+    box-sizing: border-box;
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px grey; 
+    border-radius: 10px; 
+    
+}
+
+.type-heading{
+    
+    font-family: 'Lobster', Courier, monospace;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;   
+
+}
+
+.news-Float-containers{
+    
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    padding:10px;
+
+}
+
+.news-Float-containers > div{
+    
+    padding: 10px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow:2px 2px 0 grey ;
+
+}
+
+.news-img{
+    
+    width: 300px;
+    height: 150px;
+    object-fit: fill;/*default*/
+    box-shadow: 0 0 4px grey;
+    border-radius: 5px ;
+
+}
+
+.local-news-div{  
+
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.footer{
+
+    font-size: xx-small;
+    text-align: center;
+
+}
+
+/*local News Div Css*/
+/*#local-news > div:nth-child(2){
+    padding: 10px;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}*/
+
+
+
+
+/* ANIMATIONS SECTION */
+
+ /* breaking/global news */
+ @keyframes NewsContainers{
+
+    from{}
+    to{
+       
+        transform: scale(1.05,1.05);
+        overflow: auto;
+        box-shadow: 0 0 10px grey;
+    
+    }
+
+}
+.news-Float-containers > div:hover{
+
+    animation: NewsContainers 0.5s linear forwards;
+
+}
+
+ /*  local news  */
+@keyframes localNews {
+     
+    from{}
+    to{
+
+        box-shadow: 0 0 4px grey;
+        background-color: white;
+        overflow: auto;
+        resize: horizontal;
+    
+    }
+ 
+}
+ .local-news-div:hover{
+
+    animation: localNews 0.5s linear forwards;
+ 
+}
+
+
+/* MEDIA QUERIES SECTION */
+
+/* Tablet */
+@media screen and (min-width:501px) and (max-width:1200px){
+    
+    body{
+
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    /* Breaking/Global news (parent container) */
+    .news-Float-containers{
+        
+        width: 45%;
+        height: auto;
+        box-sizing: border-box;
+        float: left;
+        display: inline-block;
+        padding:10px;
+        margin: auto;
+    
+    }
+
+    .local-news-div{
+
+        width: 33.33%;
+        height: 200px;
+        padding: 10px;
+        float: left;
+        display: inline-block;
+        box-sizing: border-box;
+        resize:horizontal;
+        overflow: hidden;
+        margin: auto;
+        box-shadow: 2px 2px 2px grey;
+    
+    }
+
+    .news-img{
+    
+        width: 90%;
+        height: 150px;
+        object-fit: fill;/*default*/
+        box-shadow: 0 0 4px grey;
+        border-radius: 5px ;
+    
+    }
+
+}
+/* Mobile */
+@media screen and (min-width:0px) and (max-width:500px){
+
+    body{
+        
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    .news-Float-containers{
+    
+        width: 90%;
+        height: auto;
+        box-sizing: border-box;
+        float: left;
+        display: inline-block;
+        padding:10px;
+    
+    }
+    .local-news-div{
+    
+        width: 50%;
+        height: 200px;
+        padding: 10px;
+        float: left;
+        display: inline-block;
+        box-sizing: border-box;
+        resize:horizontal;
+        overflow: hidden;
+        margin: auto;
+        box-shadow: 2px 2px 2px grey;
+    
+    }
+    .news-img{
+    
+        width: 90%;
+        height: 150px;
+        object-fit: fill;/*default*/
+        box-shadow: 0 0 4px grey;
+        border-radius: 5px ;
+    
+    }
+
+}
