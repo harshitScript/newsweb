@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Your Own News inc.</title>
+        <meta charset="UTF-8"/>
+        <meta content="" description=""/>
+        <meta name="viewport" content = "width = device-width,initial-scale=1"/>
+        <!--to make bootstarp working in older browsers and mobiles-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--Including bootstrap cdn(content delivary network)-->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!--jquery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!--latest compiled javascript-->
+        <script src="http:///maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!--to acess font awesome class-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+
+        <!--axios-->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+        
+        <!--Google fonst content delivery-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Lobster|Pattaya"> <!--here we are using multiple fonts-->
+        
+        <!--stylesheets-->
+        <link rel="stylesheet" href="news.css"> <!--computers-->
+        
+    
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="navbar-header">
+                
+                <a href="news.html" class="navbar-brand">Your Own News <sub>inc.</sub></a>
+                <button type="button" data-target="#nav-body" data-toggle="collapse" class="navbar-toggle">
+                    
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                
+                </button>
+            
+            </div>
+            
+            <div class="collapse navbar-collapse" id="nav-body">
+                
+                <ul class="nav navbar-nav">
+                
+                    <li><a href="#breaking-news-div">Breaking News&nbsp;<i class="fa fa-fw fa-bolt"></i></a></li>
+                    <li><a href="#global-news-div">Global News&nbsp;<i class="fa fa-fw fa-globe"></i></a></li>
+                    <li><a href="#local-news-div">Local News&nbsp;<i class="fa fa-fw fa-map-marker"></i></a></li>
+                
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="#">
+                            Good Morning<i class="fa fa-fw fa-sun"></i>
+                        </a>
+                    </li>
+                
+                </ul>
+            
+            </div>
+            
+        </nav>
+
+        <br id="breaking-news-div">
+        <hr>
+        <br>
+
+        <!--BREAKING NEWS DIVISION-->
+        
+        <div class="division">
+
+            
+
+            <!--Breaking news heading-->
+            <h1 class="type-heading">&nbsp;Breaking News<i class="fa fa-fw fa-bolt"></i></h1>
+
+            <!--First breaking news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Odisha Hit, Cyclone Yaas Hurtles Towards Bengal;</h3>
+
+                    <!--news image-->
+                    <figure>
+                        
+                        <img class="news-img" src="https://images.news18.com/ibnlive/uploads/2021/05/1622004689_untitled-design-2021-05-26t102110.616.png?impolicy=website&width=534&height=356" alt="breaking news 1 image" width="80%" height="auto">
+                        <figcaption>source: @news18india</figcaption>
+                    
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        Cyclone Yaas began its almost four-hour-long landfall process at around 9.15 am south of Balasore district in Odisha, the India Meteorological Department (IMD) said.
+                        The weather department further predicted that the storm will turn into a ‘very severe cyclonic storm’ and is likely to make hit close to Dhamra Port (in Bhadrak district)
+                        and Balasore on the Odisha coast by Tuesday noon. Wind speeds of approximately 180-185 km per hour have been forecasted.
+                        Additional Chief Secretary, Odisha, Pradeep Jena, tweeted, “The maximum impact will be in Balasore and Bhadrak districts. Wind speed will be about 100kmph in the Mayurbhanj
+                        district also. Pray to God to help people of the state.”
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--Second breaking news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>WhatsApp sues Indian government over ‘mass surveillance’ internet laws</h3>
+
+                    <!--news image-->
+                    <figure>
+                        
+                        <img class="news-img" src="https://i.guim.co.uk/img/media/80867eab71977e9d62a11c92dfba8a50c741da40/0_64_6048_3630/master/6048.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=fbb2b23f326f34cdcf5302ee9070c941" alt="breaking news 2 image" width="80%" height="auto">
+                        <figcaption>source: @TheGuardian</figcaption>
+                    
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        WhatsApp has sued the Indian government over new internet laws which the company says will “severely undermine” the privacy of their users.
+                        The new IT laws, which have been called oppressive and draconian, give the Indian government greater power to monitor online activity, including on encrypted apps like WhatsApp and Signal. They were passed in February but were due to come into effect on Wednesday.                        
+                        Under the laws, encryption – which keeps communications on the app private and inaccessible to outside parties – would have to be removed from WhatsApp in India and messages would have to be put into a “traceable” database. The government would then be able to identify and take action against the sender if any content was ruled “unlawful”.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--Third breaking news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Top Medical Body IMA Sends ₹ 1,000 Crore Defamation Notice To Ramdev</h3>
+
+                    <!--news image-->
+                    <figure>
+                        
+                        <img class="news-img" src="https://c.ndtvimg.com/2021-05/9n2b4ps4_ramdev-pti_625x300_22_May_21.jpg" alt="breaking news 3 image" width="80%" height="auto">
+                        <figcaption>source: @NDTV</figcaption>
+                    
+                    </figure>
+
+                    
+                    <!--news description-->
+                    <p>
+                        Dehradun: The Indian Medical Association or IMA has served a defamation notice on Ramdev for alleged disparaging remarks against allopathy and allopathic doctors, demanding an apology from him within 15 days, failing which it said it will demand a compensation of ₹ 1,000 crore from the yoga guru.
+                        The six-page notice served on behalf of IMA (Uttarakhand) secretary Ajay Khanna by his lawyer Neeraj Pandey describes the remarks by Ramdev as damaging to the reputation and the image of allopathy and around 2,000 practitioners of it who are part of the association.
+                        Terming the remarks of the yoga guru a "criminal act" under section of 499 of the Indian Penal Code, the notice demanded a written apology from him within 15 days of its receipt, saying a compensation of ₹ 1,000 crore will be demanded from him at the rate of ₹ 50 lakh per member of the IMA if he failed to do so.  
+                    </p>
+
+                </div>
+        
+            </div>
+
+            <!--Fourth breaking news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Subodh Jaiswal as New CBI Director: How CJI Used SC Order to Limit Govt’s Discretion Forever</h3>
+
+                    <!--news image-->
+                    <figure>
+                        
+                        <img class="news-img" src="https://cdn.thewire.in/wp-content/uploads/2021/05/26124519/2021_5img25_May_2021_PTI05_25_2021_000245B-1200x600.jpg" alt="breaking news 4 image">
+                        <figcaption>source: @The Wire</figcaption>
+                    
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        New Delhi: The Appointments Committee of the Cabinet has, based on the panel recommended by the Committee, approved the appointment of Subodh Kumar Jaiswal as the new director of the Central Bureau of Investigation (CBI) on Tuesday. The selection committee comprising Prime Minister Narendra Modi, Chief Justice of India N.V. Ramana and the Leader of Opposition  
+                        Adhir Ranjan Chaudhary had, on Monday, shortlisted Jaiswal, along with Sashastra Seema Bal (SSB) chief K.R.Chandra and special secretary in the Ministry of Home Affairs, V.S.K. Kaumudi. As Jaiswal was the senior-most among the three officers, his choice became easier on the principle of seniority being the default norm of selection.
+                        Jaiswal, an IPS officer and chief of the Central Industrial Security Forces (CISF), has been appointed as the chief of the CBI for a two-year period. He is a 1985-batch IPS officer of the Maharashtra cadre. He has held positions as the Mumbai police commissioner as well as the director general of police (DGP), Maharashtra. In his long career, he has also served the Intelligence Bureau and RAW.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br id="global-news-div">
+        <hr>
+        <br>
+
+        <!--GLOBAL NEWS DIVISION-->
+        <div class="division" id="global-news-div">
+
+            
+
+            <!--Global news heading-->
+            <h1 class="type-heading">&nbsp;Global News<i class="fa fa-fw fa-globe"></i></h1>
+
+            <!--First global news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Sri Lanka, European crews battle fire on chemical container ship burning for 7 days.</h3>
+
+                    <!--news image-->
+                    <figure>
+
+                        <img class="news-img" src="https://globalnews.ca/wp-content/uploads/2021/05/CP124040185.jpg?quality=85&strip=all&w=720" alt="Global news image 1">
+                        <figcaption>@GlobalNews</figcaption>
+
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        European firefighters and salvage experts have joined Sri Lankan crews battling a seven-day fire on board a container ship carrying chemicals, officials said Thursday.
+                        The fire on board the MV X-Press Pearl, which is anchored off Sri Lanka’s capital Colombo, has spread to the quarterdeck where the ship’s bridge is located, and a large
+                        number of containers have tumbled into the sea.
+                        X-Press Feeders, which operates the ship, said
+                        firefighters and salvage experts flown in from 
+                        Europe were working with local authorities to try to save the vessel and its cargo despite the adverse weather due to the onset of southwest monsoons.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--Second global news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Covid: Biden orders investigation into virus origin as lab leak theory debated.</h3>
+
+                    <!--news image-->
+                    <figure>
+
+                        <img  class="news-img" src=" https://ichef.bbci.co.uk/news/976/cpsprodpb/7448/production/_118686792_tv067512258.jpg" alt="Global news image 2">
+                        <figcaption>@BBC</figcaption>
+
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        US President Joe Biden has ordered intelligence officials to "redouble" efforts to investigate the origins of Covid-19, including the theory that it came from a laboratory in China.
+                        He said the US intelligence community was split on whether it was the result of a lab accident, or emerged from human contact with an infected animal.
+                        Mr Biden asked the groups to report back to him within 90 days.
+                        China's embassy warned against "politicising" Covid origin tracing.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--Third global news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>Melbourne lockdown: Fears over outbreak sparks restrictions</h3>
+
+                    <!--news image-->
+                    <figure>
+
+                        <img class="news-img" src=" https://ichef.bbci.co.uk/news/976/cpsprodpb/F59E/production/_118687826_hi067625650.jpg" alt="Global news image 3">
+                        <figcaption>@BBC</figcaption>
+
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        Australia's second most populous state Victoria will enter a seven-day lockdown to counter a fast-spreading outbreak in its capital, Melbourne.
+                        The lockdown will begin at midnight on Thursday (14:00 GMT).
+                        Authorities have so far found 26 cases, and identified 150 sites where people may have been exposed to the virus.
+                        There is growing anxiety over the outbreak which reminds many locals of a devastating second wave that swept the state last year.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--Fourth global news container div-->
+            <div class="news-Float-containers">
+
+                <div>
+
+                    <!--News heading-->
+                    <h3>More than 100 missing after boat sinks in northwest Nigeria.</h3>
+
+                    <!--news image-->
+                    <figure>
+
+                        <img class="news-img" src="https://cdn.cnn.com/cnnnext/dam/assets/210526184704-nigeria-boat-sinks-exlarge-169.jpg " alt="Global news image 4">
+                        <figcaption>@CNN</figcaption>
+
+                    </figure>
+
+                    <!--news description-->
+                    <p>
+                        Scores of people are missing and feared dead after an overloaded boat capsized in the northwestern Nigerian state of Kebbi on Wednesday with around 180 passengers on board, government authorities said.
+                        The incident took place in the Niger River early Wednesday local time when the boat left Niger state and was heading to Kebbi State​, according to Mary Noel-Berje, a spokeswoman for the Niger State government.
+                        Around 20 people have been rescued and four bodies recovered so far, she said, adding that the search and rescue operations are ongoing.
+                        Most of the passengers are from Kebbi State and are believed to be traders, Noel-Berje said.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br id="local-news-div">
+        <hr>
+        <br>
+
+        <!--Local articles division-->
+        <div class="division" id="local-news">
+            
+            
+            
+            <!--Breaking news heading-->
+            <h1 class="type-heading">&nbsp;Local News<i class="fa fa-fw fa-map-marker"></i></h1>
+            
+            <div>
+
+                <!--First local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 1</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+
+                </div>
+
+                <!--Second local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 2</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Third local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 3</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Fourth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 4</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+                
+                <!--Fifth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 5</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--sixth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 6</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Seventh local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 7</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Eight local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 8</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Nineth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 9</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Tenth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 10</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Eleventh local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 11</h4>
+                    <sup>@sample credit</sup>
+                    
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Twelth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 12</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Thirteenth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 13</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Fourteenth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 14</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+                <!--Fifteenth local news conatiner-->
+                <div class="local-news-div">
+
+                    <!--News Heading-->
+                    <h4>Local news heading 15</h4>
+                    <sup>@sample credit</sup>
+
+                    <!--News content-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum justo vel nibh imperdiet lacinia. Ut suscipit, metus ac accumsan sodales, lorem quam vestibulum ipsum, sed vulputate libero nisi vel lacus. Phasellus tincidunt tincidunt quam ut blandit. Curabitur et pharetra sem, ac consequat magna. Aliquam vel maximus nunc. Nam laoreet pretium hendrerit. Aenean vehicula augue ut tellus consequat vulputate. Sed vel dolor eleifend, blandit magna egestas, venenatis leo.  
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <!--Footer div-->
+        <div class="footer">
+
+            <footer>
+
+                @2021 Yours News inc.
+
+            </footer>
+
+        </div>
+
+
+    </body>
+
+</html>
